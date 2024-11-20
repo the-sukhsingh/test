@@ -20,7 +20,7 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: back
+          app-name: shayarbajwa
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B72C24BD37BC4090984C61D44DBDC7BC }}
           package: .       
 
